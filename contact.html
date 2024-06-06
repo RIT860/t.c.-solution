@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Responsive Columns</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+/*footer styling */
+.main-footer-section{
+    padding:0 0 4rem 0;
+
+    color: var(--bs-main-color);
+
+}
+
+.contact-div{
+    background-color: #222;
+}
+
+.icon-div{
+    height: 5rem;
+    width: 5rem;
+}
+
+@media screen and (max-width:998px){
+    .navbar-toggler{
+        border-color:var(--bs-main-color)
+    }
+
+    .navbar-toggler-icon{
+        color:var(--bs-main-color);
+        background-color:var(--bs-main-color);
+    }
+    h1{
+        font-size: 2.4rem;
+    }
+    section .common-heading{
+        width: auto;
+    }
+    section .para-width{
+        width: auto;
+    }
+    .hero-secion{
+        height:100vh ;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+    <!--FOOTER SECTION START-->
+    <footer class="main-footer-section bg-color py-5">
+        <div class="contact-details">
+            <div class="container px-5">
+                <div class="row g-0 shadow mb-5">
+                    <div class="col-lg-4">
+                        <div class="contact-div p-5 d-flex flex-column justify-content-center align-items-center">
+                            <div class="icon-div d-flex justify-content-center align-content-centerrounded-circle mb-3">
+                                <img src="images/phone (1).gif" alt="GIF Image" class="img-fluid">
+                            </div>
+                            <p class="text-white">(+91) 12345 67890</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="contact-div p-5 d-flex flex-column justify-content-center align-items-center">
+                            <div class="icon-div d-flex justify-content-center align-content-centerrounded-circle mb-3">
+                                <img src="images/message.gif" alt="GIF Image" class="img-fluid">
+                            </div>
+                            <p class="text-white">rkr8603rkr@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="contact-div p-5 d-flex flex-column justify-content-center align-items-center">
+                            <div class="icon-div d-flex justify-content-center align-content-centerrounded-circle mb-3">
+                                <img src="images/map.gif" alt="GIF Image" class="img-fluid">
+                            </div>
+                            <p class="text-white">India,New Delhi,Bihar,Begusarai</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        
+                <div class="row g-0 d-flex justify-content-center align-items-center">
+                    <div class="col-2">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-2">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-2">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-4 offset-1">
+                        <form>
+                            <h5>Subscribe to our newsletter</h5>
+                            <p>Monthly digest of whats new and exciting from us.</p>
+                            <div class="d-flex w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden">Email address</label>
+                                <input id="newsletter1" type="text" class="form-control" placeholder="Email address"
+                                    fdprocessedid="aryhtf">
+                                <button class="btn btn-primary" type="button" fdprocessedid="axfolc">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between py-4 my-4 ms-5 border-top">
+                    <p class="text-white">© 2021 Company, My name is Ritesh Kumar. I am the founder of <b style="color: pink;">T.C. Solution </b></p>
+                    <ul class="list-unstyled d-flex position-absolute end-0 me-5">
+                        <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-square-twitter fa-bounce" style="color:rgb(61, 61, 255);"></i>
+                        </li>
+                        <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-square-instagram fa-bounce" style="color: rgb(255, 36, 72);"></i>
+                        </li>
+                        <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-square-facebook fa-bounce" style="color: #005eff;"></i>
+                        </li>
+                    </ul>
+                </div>
+            
+
+        </div>
+    </footer>
+    <!--FOOTER SECTION END-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
